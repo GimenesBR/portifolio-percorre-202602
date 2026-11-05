@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.apresentacao {
+    display: flex;
+    /* Edit this gradient: https://www.css-gradient.com/?colors=b0bec5,546e7a,212121&gd=dbb&from=css */
+background: #9ccfe9;
+background: linear-gradient(180deg, #B0BEC5 0%, #546E7A 50%, #212121 100%);
+color: rgb(0, 0, 0);
+
+
+}
+
+.foto-perfil {
+    border-radius: 80%;
+}
+
+.apresentacao-left {
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.apresentacao-right {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.linkedin-perfil > img {
+    width: 50px;
+    border-radius: 40px;
+}
